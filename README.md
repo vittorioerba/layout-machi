@@ -15,7 +15,7 @@ I unpacked the function `machi.switcher.start()` into:
 - `machi.manual_switcher.resize_bottomright(client, direction)`: resizes `client` in `direction` by stretching from the bottom.right corner.
 This allows to create custom keybindings to reorganize the clients manually.
 
-*CAUTION:* I'm not familiar with Lua, with the original source code and with Awesome wm. Use this at your own risk.
+**CAUTION:** I'm not familiar with Lua, with the original source code and with Awesome wm. Use this at your own risk.
 
 
 ## Why?
