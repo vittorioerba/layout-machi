@@ -6,6 +6,18 @@ Demos: https://imgur.com/a/OlM60iw
 
 Draft mode: https://imgur.com/a/BOvMeQL
 
+## About this fork
+
+I made this personal fork to add some manual alternatives to the interactive switcher of the original repo.
+I unpacked the function `machi.switcher.start()` into:
+- `machi.manual_switcher.move(client, direction)`: moves `client` in `direction`, respecting the current machi layout;
+- `machi.manual_switcher.resize_topleft(client, direction)`: resizes `client` in `direction` by stretching from the top-left corner;
+- `machi.manual_switcher.resize_bottomright(client, direction)`: resizes `client` in `direction` by stretching from the bottom.right corner.
+This allows to create custom keybindings to reorganize the clients manually.
+
+*CAUTION:* I'm not familiar with Lua, with the original source code and with Awesome wm. Use this at your own risk.
+
+
 ## Why?
 
 TL;DR --- I want the control of my layout.
