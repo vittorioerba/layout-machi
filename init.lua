@@ -1,6 +1,7 @@
 local layout = require(... .. ".layout")
 local editor = require(... .. ".editor")
 local switcher = require(... .. ".switcher")
+local manual_switcher = require(... .. ".manual_switcher")
 local function default_name(tag)
    if tag.machi_name_cache == nil then
       tag.machi_name_cache =
@@ -32,6 +33,7 @@ return {
    layout = layout,
    editor = editor,
    switcher = switcher,
+   manual_switcher = manual_switcher,
    default_editor = default_editor,
    default_layout = default_layout,
    icon_raw = icon_raw,
